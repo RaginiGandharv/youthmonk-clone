@@ -4943,13 +4943,21 @@ i {
 }
 
 .accordion-body {
-  border: 2px solid #f5f6f7;
+  /* border: 2px solid #f5f6f7; */
   color: #f5f6f7;
   background-color: #010d26;
 }
 
 .accordion-flush .accordion-item .accordion-button {
   background: #010d26;
+}
+.accordion-flush .accordion-item .accordion-button {
+  border: 0;
+  box-shadow: none;
+}
+.accordion-flush .accordion-item .accordion-button::after {
+  color: white;
+  filter: contrast(0) brightness(200%);
 }
 
 .accordion-flush .accordion-item .accordion-button:hover {
