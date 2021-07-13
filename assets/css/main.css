@@ -2448,6 +2448,10 @@ button:disabled,
   flex-shrink: 1;
   width: 100%;
 }
+.features article h3,
+.features article h4 {
+  text-transform: capitalize;
+}
 .features article .content > :last-child {
   margin-bottom: 0;
 }
@@ -2567,6 +2571,12 @@ button:disabled,
 }
 .posts article > :last-child {
   margin-bottom: 0;
+}
+.posts article h3 {
+  text-transform: capitalize;
+}
+.posts article p {
+  text-align: justify;
 }
 .posts article .image {
   display: block;
@@ -3250,6 +3260,7 @@ button:disabled,
 
 .intro {
   margin: 0em 16em;
+  text-align: justify;
 }
 
 @media screen and (max-width: 480px) {
@@ -3621,6 +3632,7 @@ body.single #wrapdiv {
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
+  border: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4937,6 +4949,7 @@ i {
 }
 
 /* About- US */
+
 .accordion {
   margin: 0% 4% 2% 4%;
   box-shadow: 0px 2px 20px rgba(7, 1, 87, 0.267);
@@ -4976,7 +4989,7 @@ p{
 
 .lead1 {
   color: white;
-  text-align: center;
+  text-align: justify;
   font-size: 1.1em;
   font-weight: 400;
   margin: 0% 4% 0% 4%;
