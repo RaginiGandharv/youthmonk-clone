@@ -2452,6 +2452,9 @@ button:disabled,
 .features article h4 {
   text-transform: capitalize;
 }
+.features article .content p {
+  text-align: justify;
+}
 .features article .content > :last-child {
   margin-bottom: 0;
 }
@@ -3731,10 +3734,12 @@ body.single #wrapdiv {
   color: #fff;
   text-align: center;
 }
-
+.carousel-caption p {
+  text-align: justify;
+}
 /* Carousel Stles */
 .snippet-body {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4205,7 +4210,7 @@ body.single #foot {
 }
 
 .snippet-body {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5192,6 +5197,9 @@ p{
   background-color: rgba(0, 0, 0, 0.87);
   color: white;
   box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3), 0 2px 7px rgba(0, 0, 0, 0.87);
+}
+.mybox .card .card-text {
+  text-align: justify;
 }
 .mybox .card img {
   width: 40%;
