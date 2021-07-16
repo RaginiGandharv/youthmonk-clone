@@ -3025,6 +3025,54 @@ button:disabled,
     top: 0.5em;
   }
 }
+/* Navbar header */
+#header .links {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: inherit;
+  line-height: inherit;
+  margin-left: 1.5em;
+  overflow: hidden;
+  padding-left: 1.5em;
+}
+
+@media screen and (max-width: 980px) {
+
+  #header .links {
+    display: none;
+  }
+
+}
+
+#header ul {
+  list-style: none;
+  margin: 1.5% 0 0 10%;
+  padding-left: 0;
+  font-family: 'Roboto Slab', serif;
+}
+#header .links > ul > li{
+  display: inline-block;
+  padding: 0 1% 0 1%;
+}
+
+#header ul li a{
+  display: inline-block; 
+}
+
+#header a{
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.nav-link {
+  display: block;
+  color:#f56a6a;
+  padding:0;
+  text-decoration: none;
+  transition: 0.15s ease-in-out;
+}
 
 /* Banner */
 #banner {
